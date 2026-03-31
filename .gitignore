@@ -1,0 +1,73 @@
+# Environment variables (contains secrets, API keys, database credentials)
+.env
+.env.local
+.env.*.local
+.env.production.local
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Build artifacts
+dist/
+build/
+out/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+*~
+.project
+.classpath
+.c9/
+*.sublime-workspace
+*.sublime-project
+.DS_Store
+.AppleDouble
+.LSOverride
+*.cer
+*.csr
+*.jks
+
+# OS files
+Thumbs.db
+ehthumbs.db
+.DS_Store
+.env.*.swp
+
+# Logs and temp files
+*.log
+logs/
+*.pid
+*.pid.lock
+lerna-debug.log
+
+# Cache directories
+.cache/
+.parcel-cache/
+.next/
+out/
+
+# Testing
+coverage/
+.nyc_output/
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Misc
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
